@@ -1,0 +1,101 @@
+customer_id,first_name,last_name,email,phone,city,state,country,registration_date
+1001,Ridhi,Dash,ridhi.dash1001@shopsphere.com,6255265741,Mumbai,Maharashtra,India,2026-04-09
+1002,Theodore,Cheema,theodore.cheema1002@shopsphere.com,0073986531,Chennai,Tamil Nadu,India,2025-07-11
+1003,Raagini,Wason,raagini.wason1003@shopsphere.com,6722477679,Nagpur,Maharashtra,India,2026-01-07
+1004,Zashil,Kulkarni,zashil.kulkarni1004@shopsphere.com,8498954602,Bengaluru,Karnataka,India,2026-04-06
+1005,Warda,Nagar,warda.nagar1005@shopsphere.com,1246174338,Bengaluru,Karnataka,India,2026-02-23
+1006,Yashoda,Narain,yashoda.narain1006@shopsphere.com,7191256213,Mumbai,Maharashtra,India,2026-05-11
+1007,Ishita,De,ishita.de1007@shopsphere.com,1009102763,Pune,Maharashtra,India,2025-12-01
+1008,Indrajit,Boase,indrajit.boase1008@shopsphere.com,7243607930,Hyderabad,Telangana,India,2026-06-08
+1009,Owen,Patel,owen.patel1009@shopsphere.com,8943866756,Nashik,Maharashtra,India,2025-10-06
+1010,Varenya,Dada,varenya.dada1010@shopsphere.com,0322462507,Mumbai,Maharashtra,India,2026-05-14
+1011,Brinda,Bhatia,brinda.bhatia1011@shopsphere.com,4725145791,Delhi,Delhi,India,2026-04-06
+1012,Samesh,Devan,samesh.devan1012@shopsphere.com,4279948341,Hyderabad,Telangana,India,2025-10-07
+1013,Umang,Dada,umang.dada1013@shopsphere.com,7842733643,Delhi,Delhi,India,2025-07-29
+1014,Ishani,Chawla,ishani.chawla1014@shopsphere.com,7285972179,Chennai,Tamil Nadu,India,2025-07-15
+1015,Gaurang,De,gaurang.de1015@shopsphere.com,0191284665,Mumbai,Maharashtra,India,2025-07-04
+1016,Jagrati,Tailor,jagrati.tailor1016@shopsphere.com,0075849690,Mumbai,Maharashtra,India,2026-03-17
+1017,Faras,Atwal,faras.atwal1017@shopsphere.com,3734137832,Chennai,Tamil Nadu,India,2025-08-08
+1018,Aditya,Badami,aditya.badami1018@shopsphere.com,9114228793,Mumbai,Maharashtra,India,2026-05-27
+1019,Bhanumati,Deep,bhanumati.deep1019@shopsphere.com,5244572856,Chennai,Tamil Nadu,India,2026-06-25
+1020,Baljiwan,Ghosh,baljiwan.ghosh1020@shopsphere.com,1690820602,Hyderabad,Telangana,India,2025-08-30
+1021,Isha,Kale,isha.kale1021@shopsphere.com,4987526391,Bengaluru,Karnataka,India,2026-01-06
+1022,Abhiram,Bhatti,abhiram.bhatti1022@shopsphere.com,7664079466,Nagpur,Maharashtra,India,2026-01-14
+1023,Charles,Choudhury,charles.choudhury1023@shopsphere.com,0621709528,Nashik,Maharashtra,India,2026-05-15
+1024,George,Sibal,george.sibal1024@shopsphere.com,8199048132,Hyderabad,Telangana,India,2025-10-06
+1025,Chakradhar,Ratti,chakradhar.ratti1025@shopsphere.com,0539969755,Mumbai,Maharashtra,India,2026-04-20
+1026,William,Chandra,william.chandra1026@shopsphere.com,8071731754,Delhi,Delhi,India,2025-08-14
+1027,Anjali,Rastogi,anjali.rastogi1027@shopsphere.com,9407448750,Hyderabad,Telangana,India,2026-02-04
+1028,Victor,Sundaram,victor.sundaram1028@shopsphere.com,2157571006,Hyderabad,Telangana,India,2026-02-28
+1029,Zaid,Tandon,zaid.tandon1029@shopsphere.com,6214114970,Bengaluru,Karnataka,India,2025-11-17
+1030,Jeet,Nanda,jeet.nanda1030@shopsphere.com,4073332081,Nashik,Maharashtra,India,2025-12-08
+1031,Daksha,Vaidya,daksha.vaidya1031@shopsphere.com,4010901381,Mumbai,Maharashtra,India,2026-03-09
+1032,Rachita,Naidu,rachita.naidu1032@shopsphere.com,1466053616,Nashik,Maharashtra,India,2026-05-22
+1033,Nandini,Murty,nandini.murty1033@shopsphere.com,9526282611,Delhi,Delhi,India,2026-06-06
+1034,Farhan,Varkey,farhan.varkey1034@shopsphere.com,5810344736,Pune,Maharashtra,India,2025-11-26
+1035,Aarav,Chandran,aarav.chandran1035@shopsphere.com,4210106581,Hyderabad,Telangana,India,2026-01-03
+1036,Bhavna,Luthra,bhavna.luthra1036@shopsphere.com,0429175156,Delhi,Delhi,India,2025-09-23
+1037,Jason,Dasgupta,jason.dasgupta1037@shopsphere.com,7709708535,Chennai,Tamil Nadu,India,2025-11-28
+1038,Peter,Goda,peter.goda1038@shopsphere.com,8020109251,Hyderabad,Telangana,India,2026-02-28
+1039,Vidhi,Sarraf,vidhi.sarraf1039@shopsphere.com,4038832110,Pune,Maharashtra,India,2025-10-25
+1040,Saksham,Master,saksham.master1040@shopsphere.com,3060358744,Mumbai,Maharashtra,India,2026-05-31
+1041,Krisha,Sanghvi,krisha.sanghvi1041@shopsphere.com,1378668010,Nagpur,Maharashtra,India,2025-07-02
+1042,Saksham,Raman,saksham.raman1042@shopsphere.com,5390562259,Pune,Maharashtra,India,2025-08-24
+1043,Lohit,Devan,lohit.devan1043@shopsphere.com,1072286034,Nashik,Maharashtra,India,2026-04-04
+1044,Naksh,Bhalla,naksh.bhalla1044@shopsphere.com,0502194070,Chennai,Tamil Nadu,India,2026-02-28
+1045,Rachit,Chandran,rachit.chandran1045@shopsphere.com,1581784739,Chennai,Tamil Nadu,India,2026-03-01
+1046,Rishi,Comar,rishi.comar1046@shopsphere.com,7550808709,Hyderabad,Telangana,India,2025-09-11
+1047,Tanay,Kota,tanay.kota1047@shopsphere.com,3025773104,Pune,Maharashtra,India,2025-09-13
+1048,Neelima,Lal,neelima.lal1048@shopsphere.com,6417237658,Pune,Maharashtra,India,2026-05-28
+1049,Ishani,Parekh,ishani.parekh1049@shopsphere.com,9095610785,Nagpur,Maharashtra,India,2026-02-19
+1050,Rishi,Kale,rishi.kale1050@shopsphere.com,8730786021,Delhi,Delhi,India,2025-08-23
+1051,Jairaj,Mane,jairaj.mane1051@shopsphere.com,7372496626,Chennai,Tamil Nadu,India,2025-09-08
+1052,Jeet,Chad,jeet.chad1052@shopsphere.com,7398249751,Delhi,Delhi,India,2026-02-12
+1053,Kai,Sharma,kai.sharma1053@shopsphere.com,4059813248,Nashik,Maharashtra,India,2026-01-06
+1054,Maanav,Peri,maanav.peri1054@shopsphere.com,4409209844,Hyderabad,Telangana,India,2025-12-01
+1055,Falak,Prasad,falak.prasad1055@shopsphere.com,9801269633,Mumbai,Maharashtra,India,2025-07-24
+1056,Tanveer,Pau,tanveer.pau1056@shopsphere.com,7162600412,Pune,Maharashtra,India,2026-02-09
+1057,Zilmil,Bhatia,zilmil.bhatia1057@shopsphere.com,6774570320,Pune,Maharashtra,India,2025-07-12
+1058,Jasmit,Sur,jasmit.sur1058@shopsphere.com,4632352916,Chennai,Tamil Nadu,India,2026-05-06
+1059,Unnati,Joshi,unnati.joshi1059@shopsphere.com,4296693585,Nashik,Maharashtra,India,2025-09-13
+1060,Jalsa,Lalla,jalsa.lalla1060@shopsphere.com,0630442567,Hyderabad,Telangana,India,2025-08-20
+1061,Nilima,Chopra,nilima.chopra1061@shopsphere.com,6335278372,Bengaluru,Karnataka,India,2025-11-18
+1062,Pratyush,Gaba,pratyush.gaba1062@shopsphere.com,6856240458,Mumbai,Maharashtra,India,2026-04-06
+1063,Rishi,Khanna,rishi.khanna1063@shopsphere.com,7004531184,Bengaluru,Karnataka,India,2025-07-26
+1064,Neel,Nagi,neel.nagi1064@shopsphere.com,9008685945,Hyderabad,Telangana,India,2026-02-26
+1065,Christopher,Ghosh,christopher.ghosh1065@shopsphere.com,8908605372,Delhi,Delhi,India,2025-08-06
+1066,Hredhaan,Bal,hredhaan.bal1066@shopsphere.com,8427696478,Nagpur,Maharashtra,India,2026-02-10
+1067,Sanaya,Chowdhury,sanaya.chowdhury1067@shopsphere.com,2411946334,Bengaluru,Karnataka,India,2025-11-17
+1068,Qarin,Rajan,qarin.rajan1068@shopsphere.com,9457820679,Chennai,Tamil Nadu,India,2026-06-03
+1069,Chatura,Acharya,chatura.acharya1069@shopsphere.com,4329649186,Pune,Maharashtra,India,2026-01-19
+1070,Gabriel,Ghosh,gabriel.ghosh1070@shopsphere.com,9562797452,Nagpur,Maharashtra,India,2026-01-31
+1071,Chaaya,Sarkar,chaaya.sarkar1071@shopsphere.com,4577806882,Bengaluru,Karnataka,India,2026-03-03
+1072,Jonathan,Bath,jonathan.bath1072@shopsphere.com,4478367397,Bengaluru,Karnataka,India,2025-12-20
+1073,Yashica,Saxena,yashica.saxena1073@shopsphere.com,1713609366,Delhi,Delhi,India,2025-10-24
+1074,Jeremiah,Tandon,jeremiah.tandon1074@shopsphere.com,6169432419,Bengaluru,Karnataka,India,2025-09-26
+1075,Isaac,Kara,isaac.kara1075@shopsphere.com,2580101236,Bengaluru,Karnataka,India,2026-01-16
+1076,Eesha,Krishnamurthy,eesha.krishnamurthy1076@shopsphere.com,0721562928,Nashik,Maharashtra,India,2025-12-03
+1077,Janya,Bains,janya.bains1077@shopsphere.com,9949193467,Hyderabad,Telangana,India,2026-06-06
+1078,Pratyush,Kannan,pratyush.kannan1078@shopsphere.com,4952297668,Delhi,Delhi,India,2025-08-20
+1079,Lakshit,Parsa,lakshit.parsa1079@shopsphere.com,4180103149,Bengaluru,Karnataka,India,2025-12-22
+1080,Xiti,Mangal,xiti.mangal1080@shopsphere.com,8615246956,Chennai,Tamil Nadu,India,2026-05-08
+1081,Eshana,Barad,eshana.barad1081@shopsphere.com,8844968250,Mumbai,Maharashtra,India,2025-10-21
+1082,Barkha,Madan,barkha.madan1082@shopsphere.com,0330116399,Chennai,Tamil Nadu,India,2026-02-19
+1083,Lajita,Sharaf,lajita.sharaf1083@shopsphere.com,7173459579,Bengaluru,Karnataka,India,2026-02-11
+1084,Samuel,Swaminathan,samuel.swaminathan1084@shopsphere.com,2788078000,Pune,Maharashtra,India,2026-01-24
+1085,Praneel,Sachdev,praneel.sachdev1085@shopsphere.com,7027035526,Hyderabad,Telangana,India,2025-10-08
+1086,Upma,Andra,upma.andra1086@shopsphere.com,2611185089,Pune,Maharashtra,India,2025-11-21
+1087,Max,Upadhyay,max.upadhyay1087@shopsphere.com,2561624323,Nashik,Maharashtra,India,2026-03-25
+1088,Harshil,Ramakrishnan,harshil.ramakrishnan1088@shopsphere.com,7501609133,Nagpur,Maharashtra,India,2025-09-26
+1089,Urvi,Savant,urvi.savant1089@shopsphere.com,1962658755,Nashik,Maharashtra,India,2026-06-11
+1090,Upma,Vyas,upma.vyas1090@shopsphere.com,1543302822,Pune,Maharashtra,India,2025-12-23
+1091,Leela,Ravi,leela.ravi1091@shopsphere.com,0962339082,Chennai,Tamil Nadu,India,2026-05-08
+1092,Omkaar,Batta,omkaar.batta1092@shopsphere.com,2137193409,Nagpur,Maharashtra,India,2025-11-10
+1093,Advik,Vala,advik.vala1093@shopsphere.com,0757889265,Mumbai,Maharashtra,India,2026-04-22
+1094,Baljiwan,Nigam,baljiwan.nigam1094@shopsphere.com,6714038198,Chennai,Tamil Nadu,India,2026-06-16
+1095,Aradhana,Wason,aradhana.wason1095@shopsphere.com,4372724073,Hyderabad,Telangana,India,2026-03-03
+1096,Gauri,Dube,gauri.dube1096@shopsphere.com,3339548099,Nagpur,Maharashtra,India,2025-12-05
+1097,Pratyush,Sahni,pratyush.sahni1097@shopsphere.com,1407015056,Chennai,Tamil Nadu,India,2026-05-22
+1098,Rajata,Varughese,rajata.varughese1098@shopsphere.com,5342651684,Nagpur,Maharashtra,India,2026-06-07
+1099,Krishna,Chaudhry,krishna.chaudhry1099@shopsphere.com,7319579582,Nashik,Maharashtra,India,2025-10-07
+1100,Kiaan,Manda,kiaan.manda1100@shopsphere.com,7390920570,Chennai,Tamil Nadu,India,2025-12-04

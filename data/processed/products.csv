@@ -1,0 +1,51 @@
+product_id,product_name,category,brand,price,stock_quantity
+5001,Galaxy S24,Electronics,Samsung,74999,203
+5002,T-Shirt,Fashion,Nike,1499,331
+5003,MacBook Air,Electronics,Apple,99999,60
+5004,LED Lamp,Home,Philips,1999,190
+5005,iPhone 15,Electronics,Apple,79999,453
+5006,Table,Home,IKEA,7999,31
+5007,Sneakers,Fashion,Adidas,5999,255
+5008,Galaxy Tab,Electronics,Samsung,42999,107
+5009,Table,Home,IKEA,7999,241
+5010,Jacket,Fashion,Adidas,3499,149
+5011,Chair,Home,IKEA,2999,257
+5012,Galaxy Tab,Electronics,Samsung,42999,207
+5013,Table,Home,IKEA,7999,129
+5014,Sneakers,Fashion,Adidas,5999,410
+5015,Table,Home,IKEA,7999,350
+5016,MacBook Air,Electronics,Apple,99999,485
+5017,MacBook Air,Electronics,Apple,99999,135
+5018,LED Lamp,Home,Philips,1999,376
+5019,Galaxy Tab,Electronics,Samsung,42999,296
+5020,Running Shoes,Fashion,Nike,4999,290
+5021,XPS 13,Electronics,Dell,109999,36
+5022,Table,Home,IKEA,7999,93
+5023,XPS 13,Electronics,Dell,109999,377
+5024,XPS 13,Electronics,Dell,109999,247
+5025,Jacket,Fashion,Adidas,3499,355
+5026,LED Lamp,Home,Philips,1999,184
+5027,LED Lamp,Home,Philips,1999,163
+5028,Inspiron,Electronics,Dell,55999,147
+5029,iPhone 15,Electronics,Apple,79999,487
+5030,XPS 13,Electronics,Dell,109999,121
+5031,Galaxy Tab,Electronics,Samsung,42999,391
+5032,T-Shirt,Fashion,Nike,1499,175
+5033,Jacket,Fashion,Adidas,3499,114
+5034,T-Shirt,Fashion,Nike,1499,351
+5035,T-Shirt,Fashion,Nike,1499,416
+5036,Sneakers,Fashion,Adidas,5999,410
+5037,LED Lamp,Home,Philips,1999,207
+5038,Chair,Home,IKEA,2999,79
+5039,Chair,Home,IKEA,2999,352
+5040,LED Lamp,Home,Philips,1999,206
+5041,iPhone 15,Electronics,Apple,79999,58
+5042,Galaxy Tab,Electronics,Samsung,42999,348
+5043,Sneakers,Fashion,Adidas,5999,125
+5044,Chair,Home,IKEA,2999,345
+5045,Sneakers,Fashion,Adidas,5999,305
+5046,T-Shirt,Fashion,Nike,1499,173
+5047,Chair,Home,IKEA,2999,12
+5048,Galaxy Tab,Electronics,Samsung,42999,120
+5049,Galaxy Tab,Electronics,Samsung,42999,70
+5050,Jacket,Fashion,Adidas,3499,327

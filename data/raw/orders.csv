@@ -1,0 +1,501 @@
+order_id,customer_id,order_date,payment_method,status,total_amount
+100001,1061,2025-07-08,UPI,Delivered,0
+100002,1069,2025-12-29,Debit Card,Delivered,0
+100003,1080,2026-03-24,UPI,Delivered,0
+100004,1081,2026-02-27,Debit Card,Delivered,0
+100005,1037,2025-11-23,Credit Card,Delivered,0
+100006,1054,2026-05-30,Net Banking,Delivered,0
+100007,1059,2026-01-10,Debit Card,Cancelled,0
+100008,1078,2025-10-05,Debit Card,Delivered,0
+100009,1088,2025-11-29,Net Banking,Cancelled,0
+100010,1098,2025-10-31,Debit Card,Delivered,0
+100011,1015,2026-02-23,Net Banking,Processing,0
+100012,1021,2025-12-12,Net Banking,Delivered,0
+100013,1008,2026-05-16,Debit Card,Processing,0
+100014,1022,2025-07-04,Debit Card,Delivered,0
+100015,1024,2025-11-04,UPI,Delivered,0
+100016,1084,2025-11-04,Credit Card,Delivered,0
+100017,1035,2026-03-03,UPI,Cancelled,0
+100018,1074,2025-09-18,Cash on Delivery,Processing,0
+100019,1088,2025-06-28,Cash on Delivery,Processing,0
+100020,1065,2025-10-24,Debit Card,Processing,0
+100021,1018,2026-02-05,UPI,Processing,0
+100022,1014,2025-07-27,UPI,Cancelled,0
+100023,1062,2026-04-06,Credit Card,Processing,0
+100024,1014,2025-08-08,Cash on Delivery,Cancelled,0
+100025,1068,2025-07-06,Credit Card,Shipped,0
+100026,1090,2026-01-22,Net Banking,Cancelled,0
+100027,1094,2025-12-24,Cash on Delivery,Cancelled,0
+100028,1018,2026-01-30,UPI,Shipped,0
+100029,1014,2026-05-12,Net Banking,Cancelled,0
+100030,1086,2025-08-19,Net Banking,Shipped,0
+100031,1069,2026-06-20,Net Banking,Processing,0
+100032,1028,2026-02-01,Cash on Delivery,Shipped,0
+100033,1056,2026-04-27,Debit Card,Processing,0
+100034,1057,2026-02-01,UPI,Cancelled,0
+100035,1059,2026-06-19,Credit Card,Delivered,0
+100036,1084,2025-11-15,Net Banking,Cancelled,0
+100037,1089,2025-07-12,UPI,Processing,0
+100038,1051,2026-05-12,UPI,Delivered,0
+100039,1032,2025-08-30,UPI,Cancelled,0
+100040,1074,2026-02-20,UPI,Delivered,0
+100041,1083,2026-05-24,Net Banking,Delivered,0
+100042,1001,2026-03-31,Net Banking,Processing,0
+100043,1014,2026-03-12,Credit Card,Delivered,0
+100044,1044,2025-06-30,UPI,Cancelled,0
+100045,1011,2025-11-13,Credit Card,Cancelled,0
+100046,1006,2025-11-06,Cash on Delivery,Processing,0
+100047,1055,2025-08-03,Net Banking,Delivered,0
+100048,1079,2025-12-14,UPI,Processing,0
+100049,1071,2025-12-29,Debit Card,Shipped,0
+100050,1092,2025-08-10,Cash on Delivery,Processing,0
+100051,1021,2026-02-12,UPI,Processing,0
+100052,1052,2025-07-01,Debit Card,Delivered,0
+100053,1059,2026-01-30,Net Banking,Delivered,0
+100054,1096,2025-09-13,Credit Card,Cancelled,0
+100055,1068,2025-08-30,UPI,Delivered,0
+100056,1024,2025-09-21,Debit Card,Processing,0
+100057,1004,2026-05-08,Debit Card,Shipped,0
+100058,1099,2025-07-14,Cash on Delivery,Delivered,0
+100059,1015,2025-10-24,Cash on Delivery,Delivered,0
+100060,1003,2025-08-24,Credit Card,Shipped,0
+100061,1051,2026-03-02,Net Banking,Cancelled,0
+100062,1048,2026-05-18,Credit Card,Cancelled,0
+100063,1032,2025-11-29,Debit Card,Cancelled,0
+100064,1009,2026-01-04,Credit Card,Delivered,0
+100065,1087,2026-03-24,Net Banking,Shipped,0
+100066,1087,2025-09-27,Cash on Delivery,Cancelled,0
+100067,1035,2025-12-18,Cash on Delivery,Shipped,0
+100068,1057,2025-08-30,Debit Card,Cancelled,0
+100069,1097,2026-04-19,Cash on Delivery,Cancelled,0
+100070,1027,2025-10-28,Credit Card,Shipped,0
+100071,1004,2026-03-01,Credit Card,Delivered,0
+100072,1068,2025-11-15,Net Banking,Processing,0
+100073,1081,2025-08-07,Credit Card,Processing,0
+100074,1095,2026-02-09,Debit Card,Shipped,0
+100075,1090,2026-03-09,UPI,Cancelled,0
+100076,1020,2026-03-01,Credit Card,Cancelled,0
+100077,1086,2025-12-31,Debit Card,Cancelled,0
+100078,1004,2025-08-27,Net Banking,Shipped,0
+100079,1042,2025-11-20,Credit Card,Processing,0
+100080,1033,2025-10-20,Cash on Delivery,Processing,0
+100081,1056,2026-04-30,Debit Card,Cancelled,0
+100082,1010,2025-12-31,Debit Card,Shipped,0
+100083,1047,2026-02-01,Net Banking,Delivered,0
+100084,1088,2025-11-21,Debit Card,Delivered,0
+100085,1028,2025-08-20,Debit Card,Processing,0
+100086,1067,2025-12-14,Credit Card,Delivered,0
+100087,1008,2026-06-04,Net Banking,Delivered,0
+100088,1054,2025-08-28,Cash on Delivery,Shipped,0
+100089,1042,2025-10-13,Net Banking,Delivered,0
+100090,1026,2025-11-26,Cash on Delivery,Shipped,0
+100091,1098,2026-03-19,Cash on Delivery,Shipped,0
+100092,1053,2025-12-28,Debit Card,Processing,0
+100093,1038,2025-12-18,Net Banking,Delivered,0
+100094,1085,2025-09-04,Net Banking,Shipped,0
+100095,1053,2025-10-18,UPI,Delivered,0
+100096,1049,2026-05-26,UPI,Shipped,0
+100097,1061,2026-02-17,Debit Card,Cancelled,0
+100098,1093,2025-08-24,Debit Card,Shipped,0
+100099,1066,2026-03-03,Debit Card,Delivered,0
+100100,1061,2026-01-29,Debit Card,Shipped,0
+100101,1004,2026-02-08,Cash on Delivery,Cancelled,0
+100102,1006,2025-08-16,Debit Card,Cancelled,0
+100103,1011,2025-11-28,Net Banking,Delivered,0
+100104,1091,2026-01-04,Net Banking,Delivered,0
+100105,1061,2026-05-17,Debit Card,Cancelled,0
+100106,1037,2026-03-09,Cash on Delivery,Processing,0
+100107,1046,2026-04-28,UPI,Shipped,0
+100108,1097,2025-11-04,UPI,Delivered,0
+100109,1022,2025-12-22,Net Banking,Shipped,0
+100110,1093,2025-07-27,UPI,Delivered,0
+100111,1092,2026-03-22,Net Banking,Shipped,0
+100112,1079,2025-10-13,Net Banking,Cancelled,0
+100113,1009,2025-12-09,Net Banking,Cancelled,0
+100114,1056,2026-05-17,Net Banking,Shipped,0
+100115,1090,2026-03-25,Cash on Delivery,Processing,0
+100116,1023,2026-04-22,Debit Card,Delivered,0
+100117,1004,2025-12-27,UPI,Delivered,0
+100118,1098,2026-05-19,UPI,Cancelled,0
+100119,1076,2025-11-23,Cash on Delivery,Delivered,0
+100120,1035,2025-11-08,Net Banking,Delivered,0
+100121,1039,2025-07-28,Debit Card,Delivered,0
+100122,1083,2025-12-19,Debit Card,Delivered,0
+100123,1056,2026-04-24,Net Banking,Delivered,0
+100124,1066,2026-03-25,Credit Card,Shipped,0
+100125,1041,2026-03-08,Cash on Delivery,Delivered,0
+100126,1027,2026-05-08,Credit Card,Cancelled,0
+100127,1011,2026-06-09,Credit Card,Delivered,0
+100128,1010,2026-01-28,UPI,Cancelled,0
+100129,1045,2026-02-17,Net Banking,Cancelled,0
+100130,1013,2025-10-24,Net Banking,Cancelled,0
+100131,1066,2026-02-26,Net Banking,Delivered,0
+100132,1085,2026-04-14,Debit Card,Delivered,0
+100133,1076,2025-09-11,UPI,Processing,0
+100134,1055,2026-05-13,UPI,Delivered,0
+100135,1075,2026-03-13,Credit Card,Cancelled,0
+100136,1045,2025-11-08,Debit Card,Shipped,0
+100137,1055,2026-04-10,Net Banking,Cancelled,0
+100138,1027,2026-05-04,Credit Card,Processing,0
+100139,1035,2025-08-20,Cash on Delivery,Processing,0
+100140,1046,2025-11-23,Credit Card,Cancelled,0
+100141,1043,2025-08-19,Net Banking,Shipped,0
+100142,1056,2026-06-24,Cash on Delivery,Cancelled,0
+100143,1059,2025-08-22,Credit Card,Delivered,0
+100144,1004,2025-10-01,UPI,Processing,0
+100145,1057,2025-11-14,Net Banking,Cancelled,0
+100146,1034,2026-02-06,Credit Card,Processing,0
+100147,1087,2025-11-12,Cash on Delivery,Cancelled,0
+100148,1098,2026-06-12,Debit Card,Delivered,0
+100149,1087,2026-02-27,Net Banking,Shipped,0
+100150,1072,2025-09-19,Credit Card,Delivered,0
+100151,1049,2025-09-03,UPI,Cancelled,0
+100152,1036,2026-04-15,Credit Card,Shipped,0
+100153,1065,2026-02-06,Debit Card,Processing,0
+100154,1064,2025-10-06,UPI,Processing,0
+100155,1019,2026-04-02,Debit Card,Delivered,0
+100156,1089,2026-04-25,UPI,Delivered,0
+100157,1098,2025-08-29,UPI,Processing,0
+100158,1056,2026-03-06,Cash on Delivery,Delivered,0
+100159,1048,2026-02-12,UPI,Delivered,0
+100160,1072,2026-02-10,UPI,Shipped,0
+100161,1094,2026-06-26,Credit Card,Processing,0
+100162,1038,2025-12-09,Debit Card,Delivered,0
+100163,1014,2025-10-09,Net Banking,Cancelled,0
+100164,1015,2026-03-13,Credit Card,Cancelled,0
+100165,1013,2025-08-06,Net Banking,Cancelled,0
+100166,1018,2026-05-21,Net Banking,Processing,0
+100167,1072,2025-07-21,UPI,Cancelled,0
+100168,1003,2026-04-18,Cash on Delivery,Shipped,0
+100169,1004,2026-02-13,Debit Card,Processing,0
+100170,1036,2026-05-09,Debit Card,Cancelled,0
+100171,1002,2026-01-25,Debit Card,Processing,0
+100172,1079,2025-07-18,Credit Card,Processing,0
+100173,1069,2025-11-10,Credit Card,Cancelled,0
+100174,1060,2026-04-10,Credit Card,Delivered,0
+100175,1004,2026-03-14,Cash on Delivery,Shipped,0
+100176,1001,2025-10-18,Cash on Delivery,Processing,0
+100177,1085,2026-03-23,Debit Card,Delivered,0
+100178,1099,2025-08-04,UPI,Shipped,0
+100179,1017,2026-05-28,Credit Card,Cancelled,0
+100180,1012,2025-08-02,Cash on Delivery,Shipped,0
+100181,1026,2025-10-23,Net Banking,Processing,0
+100182,1038,2026-03-21,UPI,Shipped,0
+100183,1083,2026-02-11,Debit Card,Cancelled,0
+100184,1027,2025-09-25,Net Banking,Processing,0
+100185,1083,2025-08-28,Debit Card,Delivered,0
+100186,1046,2026-02-07,Cash on Delivery,Processing,0
+100187,1073,2025-11-23,Credit Card,Shipped,0
+100188,1016,2025-12-06,Debit Card,Delivered,0
+100189,1010,2025-08-23,UPI,Delivered,0
+100190,1026,2026-06-26,Net Banking,Cancelled,0
+100191,1097,2026-05-30,UPI,Delivered,0
+100192,1014,2026-04-18,UPI,Cancelled,0
+100193,1091,2025-07-25,Cash on Delivery,Processing,0
+100194,1077,2025-09-20,Cash on Delivery,Processing,0
+100195,1021,2026-03-03,Credit Card,Processing,0
+100196,1038,2025-11-08,UPI,Delivered,0
+100197,1030,2025-11-22,Net Banking,Processing,0
+100198,1049,2025-12-14,Cash on Delivery,Cancelled,0
+100199,1047,2025-07-10,UPI,Shipped,0
+100200,1094,2026-01-22,UPI,Processing,0
+100201,1087,2025-10-18,UPI,Shipped,0
+100202,1022,2026-06-11,Debit Card,Cancelled,0
+100203,1059,2025-09-03,Net Banking,Processing,0
+100204,1069,2026-06-03,UPI,Shipped,0
+100205,1091,2025-08-08,Debit Card,Shipped,0
+100206,1098,2026-02-01,UPI,Delivered,0
+100207,1080,2025-12-29,Debit Card,Cancelled,0
+100208,1058,2025-10-27,Debit Card,Shipped,0
+100209,1059,2026-01-30,Net Banking,Cancelled,0
+100210,1094,2026-02-13,Cash on Delivery,Delivered,0
+100211,1050,2025-10-11,Debit Card,Processing,0
+100212,1009,2026-03-25,Cash on Delivery,Cancelled,0
+100213,1065,2025-10-22,UPI,Cancelled,0
+100214,1096,2026-06-02,Credit Card,Shipped,0
+100215,1071,2025-08-11,Net Banking,Cancelled,0
+100216,1065,2026-03-03,Cash on Delivery,Shipped,0
+100217,1006,2026-04-28,Credit Card,Cancelled,0
+100218,1094,2026-06-08,Net Banking,Shipped,0
+100219,1062,2026-02-07,Cash on Delivery,Delivered,0
+100220,1087,2025-08-29,UPI,Delivered,0
+100221,1036,2025-12-02,Net Banking,Delivered,0
+100222,1058,2025-09-16,Debit Card,Delivered,0
+100223,1018,2026-03-03,Cash on Delivery,Cancelled,0
+100224,1030,2026-01-26,Cash on Delivery,Delivered,0
+100225,1059,2026-01-13,UPI,Delivered,0
+100226,1018,2025-07-25,Credit Card,Delivered,0
+100227,1039,2025-09-09,Net Banking,Delivered,0
+100228,1088,2025-07-10,UPI,Cancelled,0
+100229,1096,2025-08-08,Debit Card,Delivered,0
+100230,1051,2026-05-20,Credit Card,Processing,0
+100231,1004,2025-12-31,Net Banking,Processing,0
+100232,1037,2025-09-21,UPI,Processing,0
+100233,1060,2026-01-17,Credit Card,Cancelled,0
+100234,1081,2025-12-02,Cash on Delivery,Cancelled,0
+100235,1079,2026-01-08,Credit Card,Shipped,0
+100236,1055,2026-05-21,Net Banking,Delivered,0
+100237,1085,2026-02-05,UPI,Cancelled,0
+100238,1063,2025-07-22,Credit Card,Cancelled,0
+100239,1008,2025-09-02,Cash on Delivery,Cancelled,0
+100240,1004,2025-11-26,Net Banking,Cancelled,0
+100241,1053,2025-12-18,Debit Card,Shipped,0
+100242,1071,2025-10-18,Credit Card,Processing,0
+100243,1097,2026-04-07,Cash on Delivery,Processing,0
+100244,1007,2025-07-24,UPI,Cancelled,0
+100245,1053,2026-03-25,Credit Card,Processing,0
+100246,1008,2025-07-14,UPI,Shipped,0
+100247,1021,2025-10-23,UPI,Processing,0
+100248,1084,2025-12-26,Net Banking,Processing,0
+100249,1079,2025-12-27,Debit Card,Cancelled,0
+100250,1086,2026-02-13,Debit Card,Processing,0
+100251,1002,2026-01-26,Debit Card,Cancelled,0
+100252,1026,2026-02-06,Net Banking,Processing,0
+100253,1026,2026-04-08,Debit Card,Cancelled,0
+100254,1060,2025-12-23,UPI,Cancelled,0
+100255,1049,2026-05-09,Credit Card,Cancelled,0
+100256,1007,2026-06-20,Net Banking,Delivered,0
+100257,1078,2026-05-07,Net Banking,Shipped,0
+100258,1039,2025-12-02,Net Banking,Shipped,0
+100259,1013,2025-08-17,UPI,Delivered,0
+100260,1071,2026-01-11,Net Banking,Shipped,0
+100261,1089,2026-05-30,Credit Card,Shipped,0
+100262,1093,2025-07-20,Net Banking,Cancelled,0
+100263,1031,2026-05-23,Net Banking,Shipped,0
+100264,1040,2025-09-24,UPI,Processing,0
+100265,1022,2026-01-31,Debit Card,Delivered,0
+100266,1049,2025-11-01,Credit Card,Delivered,0
+100267,1089,2025-09-01,Cash on Delivery,Delivered,0
+100268,1005,2025-11-05,Debit Card,Delivered,0
+100269,1014,2026-02-25,UPI,Cancelled,0
+100270,1066,2026-06-26,UPI,Shipped,0
+100271,1023,2026-04-04,Net Banking,Cancelled,0
+100272,1091,2025-10-01,Cash on Delivery,Processing,0
+100273,1074,2026-06-08,Cash on Delivery,Delivered,0
+100274,1033,2026-06-12,Debit Card,Shipped,0
+100275,1033,2025-08-10,Credit Card,Delivered,0
+100276,1091,2026-01-07,UPI,Delivered,0
+100277,1009,2025-09-06,Credit Card,Shipped,0
+100278,1016,2025-11-18,Cash on Delivery,Shipped,0
+100279,1088,2025-12-15,Debit Card,Processing,0
+100280,1056,2025-10-19,Cash on Delivery,Shipped,0
+100281,1095,2026-04-02,Cash on Delivery,Cancelled,0
+100282,1023,2026-06-03,Cash on Delivery,Shipped,0
+100283,1058,2025-06-27,UPI,Shipped,0
+100284,1074,2026-03-08,UPI,Shipped,0
+100285,1007,2026-05-06,Cash on Delivery,Shipped,0
+100286,1006,2026-04-19,Credit Card,Cancelled,0
+100287,1071,2025-08-23,Debit Card,Cancelled,0
+100288,1046,2026-02-27,Debit Card,Shipped,0
+100289,1014,2026-05-24,UPI,Shipped,0
+100290,1010,2025-10-28,UPI,Delivered,0
+100291,1024,2025-07-08,Credit Card,Cancelled,0
+100292,1092,2026-02-10,Net Banking,Processing,0
+100293,1040,2025-09-22,Credit Card,Cancelled,0
+100294,1057,2026-01-18,Debit Card,Delivered,0
+100295,1034,2025-10-10,UPI,Processing,0
+100296,1048,2026-04-22,Net Banking,Delivered,0
+100297,1048,2025-11-24,Credit Card,Processing,0
+100298,1094,2025-08-05,Net Banking,Delivered,0
+100299,1096,2026-01-13,Net Banking,Cancelled,0
+100300,1033,2026-02-19,Cash on Delivery,Delivered,0
+100301,1087,2026-01-03,Cash on Delivery,Shipped,0
+100302,1032,2025-10-15,Credit Card,Delivered,0
+100303,1055,2026-01-30,Debit Card,Cancelled,0
+100304,1047,2025-08-01,Net Banking,Processing,0
+100305,1074,2026-04-18,UPI,Processing,0
+100306,1068,2026-01-13,Credit Card,Shipped,0
+100307,1052,2026-05-04,Cash on Delivery,Cancelled,0
+100308,1034,2026-01-07,Debit Card,Cancelled,0
+100309,1054,2025-07-06,Net Banking,Cancelled,0
+100310,1034,2025-10-01,Net Banking,Processing,0
+100311,1039,2025-09-18,Cash on Delivery,Processing,0
+100312,1032,2026-06-13,UPI,Delivered,0
+100313,1045,2026-05-24,Credit Card,Delivered,0
+100314,1061,2025-08-20,Net Banking,Delivered,0
+100315,1037,2025-10-05,Debit Card,Processing,0
+100316,1089,2026-04-08,Credit Card,Delivered,0
+100317,1043,2026-02-02,UPI,Cancelled,0
+100318,1072,2026-01-14,Credit Card,Cancelled,0
+100319,1082,2026-01-03,UPI,Shipped,0
+100320,1089,2026-02-23,Net Banking,Delivered,0
+100321,1035,2025-09-02,Net Banking,Processing,0
+100322,1034,2025-09-06,Cash on Delivery,Shipped,0
+100323,1063,2025-10-26,Debit Card,Shipped,0
+100324,1021,2025-11-05,Cash on Delivery,Shipped,0
+100325,1061,2025-07-24,Debit Card,Delivered,0
+100326,1033,2025-08-03,Debit Card,Cancelled,0
+100327,1072,2025-10-31,Cash on Delivery,Shipped,0
+100328,1033,2025-08-23,Cash on Delivery,Cancelled,0
+100329,1032,2025-06-28,Cash on Delivery,Shipped,0
+100330,1005,2026-03-20,UPI,Cancelled,0
+100331,1055,2025-11-12,UPI,Delivered,0
+100332,1019,2025-07-15,Credit Card,Delivered,0
+100333,1064,2026-01-07,Debit Card,Cancelled,0
+100334,1068,2025-10-30,Cash on Delivery,Cancelled,0
+100335,1029,2025-07-23,Cash on Delivery,Delivered,0
+100336,1016,2025-10-04,Credit Card,Shipped,0
+100337,1052,2026-06-24,Credit Card,Cancelled,0
+100338,1070,2026-06-17,Cash on Delivery,Cancelled,0
+100339,1089,2025-11-19,Net Banking,Delivered,0
+100340,1099,2025-09-03,Net Banking,Shipped,0
+100341,1008,2026-01-09,Net Banking,Shipped,0
+100342,1087,2026-05-15,Cash on Delivery,Processing,0
+100343,1019,2025-12-27,Net Banking,Cancelled,0
+100344,1041,2026-03-12,Debit Card,Shipped,0
+100345,1099,2025-12-24,Credit Card,Processing,0
+100346,1001,2026-04-10,Debit Card,Delivered,0
+100347,1050,2025-07-31,Debit Card,Shipped,0
+100348,1058,2025-07-07,Credit Card,Cancelled,0
+100349,1010,2025-10-18,Cash on Delivery,Delivered,0
+100350,1032,2025-08-09,Net Banking,Delivered,0
+100351,1005,2025-10-24,Credit Card,Shipped,0
+100352,1040,2026-02-24,Credit Card,Shipped,0
+100353,1090,2026-03-25,Credit Card,Shipped,0
+100354,1025,2026-03-24,UPI,Delivered,0
+100355,1063,2025-07-24,Debit Card,Processing,0
+100356,1011,2026-01-27,UPI,Shipped,0
+100357,1087,2026-02-03,Credit Card,Shipped,0
+100358,1086,2026-03-12,Credit Card,Processing,0
+100359,1055,2026-05-05,UPI,Delivered,0
+100360,1065,2025-08-13,UPI,Shipped,0
+100361,1050,2025-10-06,Debit Card,Delivered,0
+100362,1074,2026-03-04,Credit Card,Processing,0
+100363,1051,2026-05-22,Cash on Delivery,Delivered,0
+100364,1021,2026-01-20,Debit Card,Delivered,0
+100365,1096,2026-04-26,Net Banking,Shipped,0
+100366,1035,2025-08-24,Cash on Delivery,Delivered,0
+100367,1028,2026-03-15,Cash on Delivery,Cancelled,0
+100368,1019,2025-09-08,Debit Card,Cancelled,0
+100369,1015,2025-08-20,Net Banking,Processing,0
+100370,1062,2025-06-28,Credit Card,Cancelled,0
+100371,1017,2025-12-08,UPI,Shipped,0
+100372,1097,2026-02-02,Net Banking,Shipped,0
+100373,1083,2025-09-26,UPI,Processing,0
+100374,1053,2025-07-08,Cash on Delivery,Delivered,0
+100375,1021,2025-10-28,Cash on Delivery,Processing,0
+100376,1051,2026-02-03,Cash on Delivery,Shipped,0
+100377,1060,2025-08-29,Cash on Delivery,Cancelled,0
+100378,1050,2026-02-07,Credit Card,Delivered,0
+100379,1032,2025-10-12,Credit Card,Processing,0
+100380,1051,2025-08-24,UPI,Cancelled,0
+100381,1023,2026-05-11,Net Banking,Cancelled,0
+100382,1027,2025-09-24,Cash on Delivery,Shipped,0
+100383,1063,2026-03-15,Credit Card,Cancelled,0
+100384,1099,2026-03-24,UPI,Cancelled,0
+100385,1075,2025-12-03,Debit Card,Delivered,0
+100386,1013,2026-05-05,Net Banking,Shipped,0
+100387,1034,2026-03-13,Debit Card,Shipped,0
+100388,1021,2026-04-13,Net Banking,Cancelled,0
+100389,1082,2025-12-27,Net Banking,Processing,0
+100390,1097,2026-05-06,Cash on Delivery,Cancelled,0
+100391,1067,2026-06-13,Net Banking,Cancelled,0
+100392,1039,2026-04-24,Credit Card,Delivered,0
+100393,1031,2026-03-29,Net Banking,Shipped,0
+100394,1019,2025-10-20,UPI,Processing,0
+100395,1001,2026-04-05,Net Banking,Delivered,0
+100396,1082,2026-05-10,UPI,Processing,0
+100397,1005,2025-08-04,Credit Card,Shipped,0
+100398,1098,2025-09-24,UPI,Delivered,0
+100399,1094,2026-05-24,Debit Card,Shipped,0
+100400,1084,2026-03-23,Cash on Delivery,Cancelled,0
+100401,1007,2025-09-25,Net Banking,Cancelled,0
+100402,1092,2026-06-22,Net Banking,Cancelled,0
+100403,1026,2025-06-29,Net Banking,Delivered,0
+100404,1094,2025-11-18,Debit Card,Cancelled,0
+100405,1059,2026-06-06,Credit Card,Processing,0
+100406,1054,2025-09-13,Net Banking,Processing,0
+100407,1029,2026-01-04,Credit Card,Delivered,0
+100408,1094,2026-04-28,UPI,Processing,0
+100409,1039,2026-05-18,UPI,Delivered,0
+100410,1037,2025-07-18,Debit Card,Delivered,0
+100411,1086,2026-01-07,Debit Card,Shipped,0
+100412,1063,2025-11-14,Cash on Delivery,Shipped,0
+100413,1065,2026-06-05,Net Banking,Shipped,0
+100414,1022,2025-07-25,UPI,Shipped,0
+100415,1081,2025-11-06,Credit Card,Delivered,0
+100416,1014,2026-01-12,Net Banking,Processing,0
+100417,1050,2026-02-08,Credit Card,Delivered,0
+100418,1038,2025-09-18,Credit Card,Cancelled,0
+100419,1034,2025-07-17,UPI,Delivered,0
+100420,1050,2025-08-23,Credit Card,Processing,0
+100421,1003,2025-08-27,Debit Card,Cancelled,0
+100422,1051,2025-10-15,UPI,Cancelled,0
+100423,1038,2026-05-06,Debit Card,Delivered,0
+100424,1014,2025-12-01,Debit Card,Delivered,0
+100425,1035,2026-03-05,Debit Card,Delivered,0
+100426,1003,2026-04-11,Net Banking,Delivered,0
+100427,1001,2026-02-04,Cash on Delivery,Processing,0
+100428,1092,2026-03-03,Cash on Delivery,Cancelled,0
+100429,1016,2026-03-17,Net Banking,Delivered,0
+100430,1010,2025-10-22,UPI,Shipped,0
+100431,1087,2025-09-02,Net Banking,Processing,0
+100432,1050,2025-09-10,Debit Card,Cancelled,0
+100433,1005,2025-11-18,Credit Card,Processing,0
+100434,1039,2026-04-26,Debit Card,Delivered,0
+100435,1060,2025-09-25,Credit Card,Processing,0
+100436,1030,2026-01-11,Debit Card,Shipped,0
+100437,1012,2026-03-26,UPI,Processing,0
+100438,1015,2025-07-25,Cash on Delivery,Delivered,0
+100439,1059,2025-10-10,Credit Card,Processing,0
+100440,1073,2026-05-18,UPI,Processing,0
+100441,1091,2026-01-14,Debit Card,Delivered,0
+100442,1077,2025-08-13,Net Banking,Cancelled,0
+100443,1039,2025-07-06,Credit Card,Processing,0
+100444,1027,2025-12-26,Debit Card,Processing,0
+100445,1087,2025-10-02,UPI,Shipped,0
+100446,1022,2025-11-30,Net Banking,Delivered,0
+100447,1042,2025-11-21,Cash on Delivery,Shipped,0
+100448,1086,2026-03-19,Net Banking,Delivered,0
+100449,1062,2026-06-22,Cash on Delivery,Shipped,0
+100450,1010,2025-10-20,Credit Card,Cancelled,0
+100451,1072,2026-04-13,Debit Card,Shipped,0
+100452,1080,2026-02-25,Net Banking,Shipped,0
+100453,1017,2025-11-27,Cash on Delivery,Cancelled,0
+100454,1029,2026-05-03,UPI,Delivered,0
+100455,1025,2026-03-09,Cash on Delivery,Processing,0
+100456,1053,2025-07-22,Cash on Delivery,Shipped,0
+100457,1060,2025-12-17,Cash on Delivery,Cancelled,0
+100458,1024,2025-07-08,Net Banking,Shipped,0
+100459,1023,2026-04-03,Net Banking,Processing,0
+100460,1023,2025-07-26,Debit Card,Shipped,0
+100461,1084,2026-02-24,Credit Card,Cancelled,0
+100462,1032,2026-01-27,Credit Card,Processing,0
+100463,1069,2025-09-10,UPI,Shipped,0
+100464,1006,2026-06-02,Net Banking,Shipped,0
+100465,1076,2025-09-02,Cash on Delivery,Delivered,0
+100466,1004,2025-09-13,Debit Card,Cancelled,0
+100467,1005,2026-05-04,Credit Card,Cancelled,0
+100468,1063,2025-07-02,Cash on Delivery,Processing,0
+100469,1055,2025-10-10,UPI,Shipped,0
+100470,1020,2026-01-07,Debit Card,Cancelled,0
+100471,1054,2026-05-22,Cash on Delivery,Cancelled,0
+100472,1018,2026-02-08,UPI,Cancelled,0
+100473,1033,2025-11-29,Debit Card,Processing,0
+100474,1086,2025-12-31,Debit Card,Cancelled,0
+100475,1071,2025-09-23,Net Banking,Processing,0
+100476,1041,2025-07-26,Debit Card,Cancelled,0
+100477,1073,2025-07-24,Debit Card,Delivered,0
+100478,1011,2025-09-30,Net Banking,Delivered,0
+100479,1084,2025-12-19,UPI,Cancelled,0
+100480,1095,2026-06-24,Net Banking,Delivered,0
+100481,1079,2025-10-21,UPI,Delivered,0
+100482,1023,2025-09-19,UPI,Cancelled,0
+100483,1090,2025-11-10,Credit Card,Cancelled,0
+100484,1100,2026-01-03,UPI,Cancelled,0
+100485,1082,2026-01-23,UPI,Delivered,0
+100486,1036,2025-11-06,Cash on Delivery,Shipped,0
+100487,1048,2025-09-12,Net Banking,Processing,0
+100488,1022,2025-07-16,Debit Card,Cancelled,0
+100489,1036,2025-07-28,UPI,Processing,0
+100490,1097,2025-10-25,Debit Card,Cancelled,0
+100491,1044,2025-08-08,UPI,Delivered,0
+100492,1016,2026-04-14,UPI,Processing,0
+100493,1050,2026-01-25,Net Banking,Shipped,0
+100494,1039,2025-12-09,UPI,Shipped,0
+100495,1032,2026-02-04,Net Banking,Shipped,0
+100496,1050,2026-04-15,UPI,Cancelled,0
+100497,1017,2026-06-11,Net Banking,Shipped,0
+100498,1100,2025-08-27,Cash on Delivery,Processing,0
+100499,1065,2025-10-23,Debit Card,Cancelled,0
+100500,1095,2026-01-03,Credit Card,Processing,0
