@@ -1,7 +1,9 @@
 from psycopg2.extras import execute_batch
+import psycopg2
 import pandas as pd
 from src.utils.logger import logger
 from src.config.settings import BATCH_SIZE
+from src.exceptions.etl_exceptions import LoadError
 
 
 PRIMARY_KEYS = {
@@ -20,47 +22,48 @@ def load_dataframe(
     """
     Generic function to load any dataframe
     into PostgreSQL.
+    Raises LoadError if loading fails.
     """
 
-    cursor = connection.cursor()
+    cursor = None
+    try:
+        cursor = connection.cursor()
 
-    primary_key = PRIMARY_KEYS.get(table_name)
+        primary_key = PRIMARY_KEYS.get(table_name)
 
-    if primary_key is None:
-        raise ValueError(
-            f"No primary key configured for table: {table_name}"
+        if primary_key is None:
+            raise LoadError(
+                f"No primary key configured for table: {table_name}"
+            )
+
+        columns = list(df.columns)
+
+        placeholders = ", ".join(
+            ["%s"] * len(columns)
         )
 
-    columns = list(df.columns)
+        update_clause = build_update_clause(
+            columns,
+            primary_key
+        )
 
-    placeholders = ", ".join(
-        ["%s"] * len(columns)
-    )
+        columns_str = ", ".join(columns)
+        
+        query = f"""
+            INSERT INTO ecommerce.{table_name}
+            ({columns_str})
+            VALUES ({placeholders})
 
-    update_clause = build_update_clause(
-    columns,
-    primary_key
-)
+            ON CONFLICT ({primary_key})
 
-    columns_str = ", ".join(columns)
-    
-    query = f"""
-        INSERT INTO ecommerce.{table_name}
-        ({columns_str})
-        VALUES ({placeholders})
+            DO UPDATE SET
 
-        ON CONFLICT ({primary_key})
+            {update_clause};
+        """
 
-        DO UPDATE SET
-
-        {update_clause};
-    """
-
-    records = list(
-        df.itertuples(index=False, name=None)
-    )
-
-    try:
+        records = list(
+            df.itertuples(index=False, name=None)
+        )
 
         execute_batch(
             cursor,
@@ -72,24 +75,28 @@ def load_dataframe(
         connection.commit()
 
         logger.info(
-        f"{len(records)} rows loaded into {table_name}"
-    )
-
-    except Exception as e:
-
-        connection.rollback()
-
-        logger.error(
-            f"❌ Error while loading {table_name}"
+            f"✓ {len(records)} rows loaded into {table_name}"
         )
 
+    except psycopg2.Error as e:
+        connection.rollback()
+        logger.error(f"Database error while loading {table_name}")
         logger.exception(f"Error loading {table_name}")
+        raise LoadError(f"Failed to load data into {table_name}") from e
 
+    except LoadError:
+        connection.rollback()
         raise
 
-    finally:
+    except Exception as e:
+        connection.rollback()
+        logger.error(f"❌ Unexpected error while loading {table_name}")
+        logger.exception(f"Error loading {table_name}")
+        raise LoadError(f"Failed to load data into {table_name}") from e
 
-        cursor.close()
+    finally:
+        if cursor:
+            cursor.close()
 
 
 def build_update_clause(columns, primary_key):

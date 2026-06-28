@@ -1,0 +1,37 @@
+{
+    "pipeline": "ecommerce-etl",
+    "status": "SUCCESS",
+    "started_at": "2026-06-28 17:05:00.014756",
+    "finished_at": "2026-06-28 17:05:01.152627",
+    "duration_seconds": 1.14,
+    "tables": [
+        {
+            "table": "customers",
+            "rows_processed": 100,
+            "duplicates": 0,
+            "missing_values": 0,
+            "rows_loaded": 100
+        },
+        {
+            "table": "products",
+            "rows_processed": 50,
+            "duplicates": 0,
+            "missing_values": 0,
+            "rows_loaded": 50
+        },
+        {
+            "table": "orders",
+            "rows_processed": 500,
+            "duplicates": 0,
+            "missing_values": 0,
+            "rows_loaded": 500
+        },
+        {
+            "table": "order_items",
+            "rows_processed": 1200,
+            "duplicates": 0,
+            "missing_values": 0,
+            "rows_loaded": 1200
+        }
+    ]
+}
