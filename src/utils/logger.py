@@ -1,6 +1,7 @@
 import logging
 from pathlib import Path
 from src.config.settings import LOG_DIR
+import sys
 
 
 
@@ -10,9 +11,12 @@ LOG_FILE = LOG_DIR / "etl.log"
 
 
 logging.basicConfig(
-    filename=LOG_FILE,
     level=logging.INFO,
-    format="%(asctime)s | %(levelname)s | %(message)s"
+    format="%(asctime)s | %(levelname)s | %(message)s",
+    handlers=[
+        logging.FileHandler(LOG_FILE),
+        logging.StreamHandler(sys.stdout)
+    ]
 )
 
 
