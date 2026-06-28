@@ -14,6 +14,8 @@ PROCESSED_DATA_PATH = DATA_DIR / "processed"
 
 LOG_DIR = BASE_DIR / "logs"
 
+SQL_DIR = Path("sql")
+
 
 # ===============================
 # Dataset Configuration
