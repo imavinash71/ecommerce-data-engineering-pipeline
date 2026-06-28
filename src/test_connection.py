@@ -1,4 +1,4 @@
-from config.db import get_connection
+from src.config.db import get_connection
 
 connection = get_connection()
 

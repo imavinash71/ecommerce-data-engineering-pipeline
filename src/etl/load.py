@@ -31,18 +31,29 @@ def load_dataframe(
             f"No primary key configured for table: {table_name}"
         )
 
-    columns = ", ".join(df.columns)
+    columns = list(df.columns)
 
     placeholders = ", ".join(
-        ["%s"] * len(df.columns)
+        ["%s"] * len(columns)
     )
 
+    update_clause = build_update_clause(
+    columns,
+    primary_key
+)
+
+    columns_str = ", ".join(columns)
+    
     query = f"""
         INSERT INTO ecommerce.{table_name}
-        ({columns})
+        ({columns_str})
         VALUES ({placeholders})
+
         ON CONFLICT ({primary_key})
-        DO NOTHING;
+
+        DO UPDATE SET
+
+        {update_clause};
     """
 
     records = list(
@@ -79,3 +90,22 @@ def load_dataframe(
     finally:
 
         cursor.close()
+
+
+def build_update_clause(columns, primary_key):
+    """
+    Generate the UPDATE clause dynamically.
+    """
+
+    update_columns = [
+        column
+        for column in columns
+        if column != primary_key
+    ]
+
+    return ", ".join(
+        [
+            f"{column}=EXCLUDED.{column}"
+            for column in update_columns
+        ]
+    )
