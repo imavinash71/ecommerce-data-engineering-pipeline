@@ -1,4 +1,4 @@
-from config.db import get_connection
+from src.config.db import get_connection
 
 from src.etl.extract import extract_csv
 from src.etl.validate import validate_dataframe
@@ -7,19 +7,9 @@ from src.etl.transform import (
     save_processed_data
 )
 from src.etl.load import load_dataframe
+from src.utils.logger import logger
+from src.config.settings import TABLES
 
-
-TABLES = [
-
-    ("customers.csv", "customers"),
-
-    ("products.csv", "products"),
-
-    ("orders.csv", "orders"),
-
-    ("order_items.csv", "order_items")
-
-]
 
 
 def main():
@@ -30,7 +20,8 @@ def main():
 
         for file_name, table_name in TABLES:
 
-            print(f"\nProcessing {table_name}...")
+            # print(f"\nProcessing {table_name}...")
+            logger.info(f"Processing {table_name}")
 
             df = extract_csv(file_name)
 
@@ -52,7 +43,8 @@ def main():
                 connection
             )
 
-        print("\n🎉 ETL Pipeline Completed Successfully!")
+        # print("\n ETL Pipeline Completed Successfully!")
+        logger.info("ETL Pipeline Completed Successfully.")
 
     finally:
 

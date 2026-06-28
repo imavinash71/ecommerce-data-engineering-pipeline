@@ -1,5 +1,7 @@
 from psycopg2.extras import execute_batch
 import pandas as pd
+from src.utils.logger import logger
+from src.config.settings import BATCH_SIZE
 
 
 PRIMARY_KEYS = {
@@ -53,24 +55,24 @@ def load_dataframe(
             cursor,
             query,
             records,
-            page_size=100
+            page_size=BATCH_SIZE
         )
 
         connection.commit()
 
-        print(
-            f"✅ Loaded {len(records)} rows into {table_name}"
-        )
+        logger.info(
+        f"{len(records)} rows loaded into {table_name}"
+    )
 
     except Exception as e:
 
         connection.rollback()
 
-        print(
+        logger.error(
             f"❌ Error while loading {table_name}"
         )
 
-        print(e)
+        logger.exception(f"Error loading {table_name}")
 
         raise
 

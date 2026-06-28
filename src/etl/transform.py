@@ -1,7 +1,7 @@
 from pathlib import Path
 import pandas as pd
+from src.config.settings import PROCESSED_DATA_PATH
 
-PROCESSED_DATA_PATH = Path("data/processed")
 
 def transform_customers(df: pd.DataFrame) -> pd.DataFrame:
     """

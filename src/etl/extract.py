@@ -1,7 +1,9 @@
 from pathlib import Path
 import pandas as pd
+from src.utils.logger import logger
+from src.config.settings import RAW_DATA_PATH
 
-RAW_DATA_PATH = Path("data/raw")
+
 
 def extract_csv(file_name: str)-> pd.DataFrame:
     """
@@ -11,5 +13,12 @@ def extract_csv(file_name: str)-> pd.DataFrame:
 
     file_path = RAW_DATA_PATH/file_name
 
+    logger.info(f"Extracting {file_name}")
+
     df = pd.read_csv(file_path)
+
+    logger.info(
+    f"{len(df)} records extracted from {file_name}"
+)
+    
     return df
