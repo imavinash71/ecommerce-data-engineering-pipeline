@@ -10,4 +10,4 @@ COPY . .
 
 ENV PYTHONPATH=/app/src
 
-CMD ["python", "run_pipeline.py"]
+CMD ["tail", "-f", "/dev/null"]
