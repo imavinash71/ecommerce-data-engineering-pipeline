@@ -3,38 +3,39 @@ import pandas as pd
 from src.utils.logger import logger
 from src.config.settings import RAW_DATA_PATH
 from src.exceptions.etl_exceptions import ExtractError
+from src.config.settings import DATA_SOURCE
+from src.aws.s3_download import read_csv_from_s3
 
 
-def extract_csv(file_name: str) -> pd.DataFrame:
+def extract_csv(local_path: str, s3_key: str = None):
     """
     Read a CSV file from the raw data folder
     and return it as Pandas Dataframe.
     """
     try:
-        file_path = RAW_DATA_PATH / file_name
-        
-        if not file_path.exists():
-            raise FileNotFoundError(f"File not found: {file_path}")
+        if DATA_SOURCE.upper() == "LOCAL":
 
-        logger.info(f"Extracting {file_name}")
+            logger.info(f"Reading local file: {local_path}")
 
-        df = pd.read_csv(file_path)
-        
-        if df.empty:
-            raise ExtractError(f"Extracted file {file_name} is empty")
+            return pd.read_csv(local_path)
 
-        logger.info(f"{len(df)} records extracted from {file_name}")
-    
-        return df
+        elif DATA_SOURCE.upper() == "S3":
+
+            logger.info(f"Reading S3 file: {s3_key}")
+
+            return read_csv_from_s3(s3_key)
+
+        else:
+            raise ValueError(f"Unsupported DATA_SOURCE: {DATA_SOURCE}")
     
     except FileNotFoundError as e:
-        logger.error(f"File not found: {file_name}")
-        raise ExtractError(f"Failed to extract {file_name}: File not found") from e
+        logger.error(f"File not found: {local_path}")
+        raise ExtractError(f"Failed to extract {local_path}: File not found") from e
     
     except pd.errors.ParserError as e:
-        logger.error(f"CSV parsing error in {file_name}")
-        raise ExtractError(f"Failed to parse CSV file {file_name}") from e
+        logger.error(f"CSV parsing error in {local_path}")
+        raise ExtractError(f"Failed to parse CSV file {local_path}") from e
     
     except Exception as e:
-        logger.exception(f"Extraction failed for {file_name}")
-        raise ExtractError(f"Failed to extract {file_name}") from e
+        logger.exception(f"Extraction failed for {local_path}")
+        raise ExtractError(f"Failed to extract {local_path}") from e
